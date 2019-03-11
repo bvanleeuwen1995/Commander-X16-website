@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(40, 116, 180);
+    color: white;
+    font-family: "C64 Pro Local", verdana, helvetica, sans-serif;
+    font-size: 16pt;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+
+#content-container {
+    padding: 75px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    #content-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+#content-container > img.logo {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+#content-container .wish-is-my-command, #content-container .ready-link {
+    margin-top: 80px;
+}
+
+#content-container .ready-link a {
+    color: #efbe00;
+}
+
+.hidden {
+    display: none;
+}

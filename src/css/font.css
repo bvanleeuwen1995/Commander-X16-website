@@ -1,0 +1,12 @@
+/**
+ * For the C64 style fonts please see fonts/LICENSE.txt
+ */
+@font-face {
+    font-family: "C64 Pro Mono Local";
+    src: url("../fonts/C64_Pro_Mono-STYLE.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "C64 Pro Local";
+    src: url("../fonts/C64_Pro-STYLE.woff2") format("woff2");
+}
